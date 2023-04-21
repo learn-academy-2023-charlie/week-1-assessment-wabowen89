@@ -9,24 +9,24 @@
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
 // console.log(colors.push("indigo"))
 
-// a) Your answer:
+// a) Your answer: 
 // b) Verify and explain:
 
 // --------------------1) What will this log?
 
 const cohort = "LEARN 2023"
-// console.log(cohort.length)
+console.log(cohort.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: 10
+// b) Verify and explain: 10; When logging the .length property on a string, it will display the number of characters within the provided string.
 
 // --------------------2) What will this log?
 
 const greeting = "Hello World!"
-// console.log(greeting[4])
+console.log(greeting[4])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: "o"
+// b) Verify and explain: "o"; When logging greeting[4], the console looks at the 4th index of the string and shows the character that is stored there.
 
 // --------------------3) What will this log?
 
