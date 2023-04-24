@@ -28,6 +28,7 @@ const fruit4 = "kiwi"
 // Determine if that number is above 212 (possible tool: conditionals)
 // Determine if that number is below 212 (possible tool: conditionals)
 // Determine if that number is at 212 (possible tool: conditionals)
+// return the results of the conditional
 
 const temperature1 = 42
 // Expected output: "42 is below boiling point"
@@ -71,6 +72,7 @@ console.log(isBoiling(temperature3));
 // Create a new variable totalPadresWorldSeriesRuns
 // Combine the two arrays and store with totalPadresWorldSeriesRuns  (possible tool: the accessor .concat)
 // Count the number of elements in the new array (possible tool: .length property)
+// Print out the returned number
 
 const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
@@ -89,9 +91,11 @@ console.log(totalPadresWorldSeriesRuns.length);
 // Process:
 // Create a new variable called newArr
 // Convert the string to an array  (possible tool: .split() method)
-// Store converted string under the new variable
+// Store converted string under the newArr
 // Reverse the array (possible tool: .reverse() mutator)
-// Convert back to a string and store with newArr (possible tool: .join() method)
+// Create new variable revCohort
+// Convert back to a string and store with revCohort (possible tool: .join() method)
+// Log revCohort
 
 const currentCohort = "Charlie 2023"
 // Expected output: "3202 eilrahC"
@@ -141,7 +145,7 @@ console.log(lastLocation(givenValue2));
 // Process:
 // Create a function called sortedArray
 // Takes in one array
-// Sort the given array (possible tool: .sort() mutator)
+// Sort the given array (possible tool: .sort() mutator with '(a, b) => b-a' algorithm)
 // Return the sorted array
 
 const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
